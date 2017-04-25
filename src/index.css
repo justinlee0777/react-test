@@ -1,0 +1,58 @@
+body {
+	background-color: #f2f2f2;
+}
+
+#push-module {
+	border-radius: 5px;
+}
+
+#push-module #control {
+	background-color: #363536;
+	color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+#push-module #control h3 {
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+#push-module #header {
+	background-color: #4A4A4A;
+	color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+#push-module #header > div:first-of-type {
+	flex: 70%;
+}
+
+#push-module #header > div {
+	flex: 15%;
+	font-size: 16px;
+	margin: 10px 0;
+	padding-left: 10px;
+}
+
+#push-module .notification {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+#push-module .notification:not(:last-of-type) {
+	border-bottom: 1px solid #E8E7E5;
+}
+
+#push-module .notification > div:first-of-type {
+	flex: 70%;
+}
+
+#push-module .notification > div {
+	flex: 15%;
+	font-size: 16px;
+	margin: 10px 0;
+	padding-left: 10px;
+}
